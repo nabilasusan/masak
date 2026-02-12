@@ -100,6 +100,13 @@
     footer{ color: var(--muted); }
 
     main.container{ max-width: 1100px; }
+    .form-control{
+    border-radius: 14px;
+    padding: 12px 14px;
+}
+textarea.form-control{
+  line-height: 1.7;
+}
   </style>
 
   @stack('styles')
